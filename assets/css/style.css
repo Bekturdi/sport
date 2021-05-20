@@ -1,0 +1,81 @@
+/* global veribals */
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+button, button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.font-s-12 {
+	font-size: 12px;
+}
+
+.font-s-14 {
+	font-size: 14px;
+}
+
+.font-s-16 {
+	font-size: 16px;
+}
+
+.font-s-18 {
+	font-size: 18px;
+}
+
+.font-s-20 {
+	font-size: 20px;
+}
+
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+	height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+	background-image: url('../img/12.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+	background-image: url('../img/8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+	background-image: url('../img/5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+	#introCarousel {
+	margin-top: -58.59px;
+	}
+}
+
+.navbar .nav-link {
+	color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+	border-bottom: 1px solid #fff !important;
+}
+
+.ripple{
+	height: 240px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
